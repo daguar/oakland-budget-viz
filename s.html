@@ -230,10 +230,8 @@ function do_with_budget(energy) {
 
 
 $.get("./js/budget.json", function(data){
-  alert("Data Loaded: " + data);
   do_with_budget(data);
 });
-console.log("wat");
 
 /*
 d3.json("energy.json", function (budget_data) {
