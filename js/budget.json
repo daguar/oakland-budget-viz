@@ -30,7 +30,8 @@
 {"name":"Interest Income"},
 {"name":"Service Charges"},
 {"name":"Miscellaneous"},
-{"name":"Interfund Transfers"}
+{"name":"Interfund Transfers"},
+{"name":"Measure Y: Public Safety Act"}
 ],
 "links":[
 {"source":0,"target":1,"value":1168566},
@@ -63,5 +64,8 @@
 {"source":28,"target":0,"value":800000},
 {"source":29,"target":0,"value":44759576},
 {"source":30,"target":0,"value":5928540},
-{"source":31,"target":0,"value":8282521}
+{"source":31,"target":0,"value":8282521},
+{"source":32,"target":10,"value":11636551},
+{"source":32,"target":11,"value":4000000},
+{"source":32,"target":14,"value":6285654}
 ]}
