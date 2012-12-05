@@ -31,7 +31,14 @@
 {"name":"Service Charges"},
 {"name":"Miscellaneous"},
 {"name":"Interfund Transfers"},
-{"name":"Measure Y: Public Safety Act"}
+{"name":"Measure Y: Public Safety Act"},
+{"name":"Kid's First Oakland Children's Fund"},
+{"name":"Department of Health and Human Services (Federal)"},
+{"name":"Measure B - ACTIA"},
+{"name":"Measure Q - Library Services Retention & Enhancement"},
+{"name":"Landscaping & Lighting Assessment District"},
+{"name":"Development Service Fund"},
+{"name":"Sewer Service Fund"}
 ],
 "links":[
 {"source":0,"target":1,"value":1168566},
@@ -48,7 +55,7 @@
 {"source":0,"target":12,"value":9062689},
 {"source":0,"target":13,"value":12787886},
 {"source":0,"target":14,"value":4663526},
-{"source":0,"target":15,"value":10},
+{"source":0,"target":15,"value":1},
 {"source":0,"target":16,"value":475840},
 {"source":0,"target":17,"value":61568465},
 {"source":0,"target":18,"value":252000},
@@ -67,5 +74,16 @@
 {"source":31,"target":0,"value":8282521},
 {"source":32,"target":10,"value":11636551},
 {"source":32,"target":11,"value":4000000},
-{"source":32,"target":14,"value":6285654}
+{"source":32,"target":14,"value":6285654},
+{"source":33,"target":14,"value":10756257},
+{"source":34,"target":14,"value":16790670},
+{"source":35,"target":15,"value":4650750},
+{"source":35,"target":18,"value":3500000},
+{"source":36,"target":12,"value":14923021},
+{"source":37,"target":15,"value":14365458},
+{"source":37,"target":13,"value":4091501},
+{"source":38,"target":16,"value":21280707},
+{"source":39,"target":15,"value":22261648},
+{"source":39,"target":17,"value":10161330},
+{"source":39,"target":18,"value":15150000}
 ]}
