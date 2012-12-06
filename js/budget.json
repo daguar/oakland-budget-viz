@@ -36,9 +36,21 @@
 {"name":"Department of Health and Human Services (Federal)"},
 {"name":"Measure B - ACTIA"},
 {"name":"Measure Q - Library Services Retention & Enhancement"},
-{"name":"Landscaping & Lighting Assessment District"},
+{"name":"Lighting & Landscaping Assessment District"},
 {"name":"Development Service Fund"},
-{"name":"Sewer Service Fund"}
+{"name":"Sewer Service Fund"},
+{"name":"Workforce Investment Act"},
+{"name":"State Gas Tax"},
+{"name":"State Gas Tax-Prop 42 Replacement Funds"},
+{"name":"Pension Override Tax Revenue"},
+{"name":"Recycling Program"},
+{"name":"Comprehensive Clean-Up"},
+{"name":"HUD-ESG/SHP/HOPWA"},
+{"name":"HUD-CDBG"},
+{"name":"OPRCA Self-Sustaining Revolving Fund"},
+{"name":"HUD-Home"},
+{"name":"Oakland Redevelopment Agency Grants"},
+{"name":"Transient Occupancy Tax (TOT) Surcharge"}
 ],
 "links":[
 {"source":0,"target":1,"value":1168566},
@@ -85,5 +97,17 @@
 {"source":38,"target":16,"value":21280707},
 {"source":39,"target":15,"value":22261648},
 {"source":39,"target":17,"value":10161330},
-{"source":39,"target":18,"value":15150000}
+{"source":39,"target":18,"value":15150000},
+{"source":43,"target":17,"value":55185782},
+{"source":44,"target":15,"value":8561107},
+{"source":45,"target":15,"value":17199125},
+{"source":46,"target":14,"value":6053421},
+{"source":47,"target":16,"value":8655630},
+{"source":48,"target":13,"value":3715781},
+{"source":49,"target":16,"value":4695346},
+{"source":50,"target":16,"value":2500000},
+{"source":40,"target":16,"value":6038913},
+{"source":41,"target":15,"value":6258343},
+{"source":42,"target":18,"value":2550000},
+{"source":51,"target":17,"value":2279150}
 ]}
