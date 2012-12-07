@@ -1,4 +1,30 @@
-heroku-static-site
+Oakland Budget Viz
+===========
+
+Prototype of a budget flow visualization for Oakland, CA using D3.js and the Sankey D3 plugin ( http://bost.ocks.org/mike/sankey/ ).
+
+The key files are:
+
+1. oakland_budget_data.xlsx - a spreadsheet to bootstrap the backend; provides an easy way to input data and generates JSON markup via Excel formulas
+
+2. js/budget.json - the data; copy and paste the JSON markup generated in Excel here
+
+3. index.html - the page with the viz itself
+
+
+This uses heroku-static-site ( https://github.com/jamiew/heroku-static-site ) to provide the minimal web server functionality needed (the GET call for the JSON) and make Heroku deployment easy; it's a simple Rack app.
+
+Copyright 2012 Dave Guarino
+
+
+
+
+
+
+
+(Details on heroku-static-site below)
+
+Heroku Static Site
 ===========
 
 A simple ruby + rack application for serving a basic static website, suitable for deploying to [Heroku](http://heroku.com).
