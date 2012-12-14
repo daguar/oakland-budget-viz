@@ -1,0 +1,724 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "77na-tn7q",
+      "name" : "Funds to Departments Roll-Up",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org/city/en/depts/obm/provdrs/city_budg.html",
+      "averageRating" : 0,
+      "category" : "Administration & Finance",
+      "createdAt" : 1355516065,
+      "description" : "The Annual Appropriation Ordinance is the final City operating budget as approved by the City Council. It reflects the City’s operating budget at the beginning of the fiscal year on January 1. This dataset details the budgeted expenditures in the Ordinance and identifies them by department, appropriation account, and funding type: Local, Community Development Block Grant Program (CDBG), and other Grants. “Local” funds refer to those line items that are balanced with locally generated revenue sources, including but not limited to the Corporate Fund, Water Fund, Midway and O’Hare Airport funds, Vehicle Tax Fund, Library Fund and General Obligation Bond funds. Owner: Budget and Management. Frequency: Data is updated annually. For more information about the budget process, visit the Budget Documents page: http://j.mp/lPotWf.",
+      "displayType" : "table",
+      "downloadCount" : 2,
+      "numberOfComments" : 0,
+      "oid" : 2028751,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1354206129,
+      "publicationGroup" : 527230,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1354204726,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "signed" : false,
+      "tableId" : 527230,
+      "totalTimesRated" : 0,
+      "viewCount" : 3,
+      "viewLastModified" : 1355522002,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 35041798,
+        "name" : "FUND DESCRIPTION",
+        "dataTypeName" : "text",
+        "fieldName" : "fund_description",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5652176,
+        "width" : 203,
+        "cachedContents" : {
+          "non_null" : 288,
+          "smallest" : "ACCESS CHICAGO SUP",
+          "null" : 0,
+          "largest" : "WINTER SHELTER HMLS",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CORPORATE FUND"
+          }, {
+            "count" : 19,
+            "item" : "WATER FUND"
+          }, {
+            "count" : 18,
+            "item" : "VEHICLE FUND"
+          }, {
+            "count" : 17,
+            "item" : "SEWER FUND"
+          }, {
+            "count" : 16,
+            "item" : "MIDWAY AIRPORT FUND"
+          }, {
+            "count" : 15,
+            "item" : "O'HARE REVENUE FUND"
+          }, {
+            "count" : 14,
+            "item" : "TIF ADMINISTRATION"
+          }, {
+            "count" : 13,
+            "item" : "COM ED SETTLEMENT FUND II"
+          }, {
+            "count" : 12,
+            "item" : "OEMC GRANTS 2013"
+          }, {
+            "count" : 11,
+            "item" : "U.S. DEPT OF ENERGY"
+          }, {
+            "count" : 10,
+            "item" : "DEPT OF GENERAL SERVICES PROGRAMS"
+          }, {
+            "count" : 9,
+            "item" : "USEPA - FEDERAL"
+          }, {
+            "count" : 8,
+            "item" : "DEPT. OF ENVIRONMENT STATE GRANTS"
+          }, {
+            "count" : 7,
+            "item" : "CPD - U.S. DOJ"
+          }, {
+            "count" : 6,
+            "item" : "INNOVATIVE DELIVERY GRANT"
+          }, {
+            "count" : 5,
+            "item" : "DCASE - PRIVATE GRANTS"
+          }, {
+            "count" : 4,
+            "item" : "DCASE - STATE GRANTS"
+          }, {
+            "count" : 3,
+            "item" : "FLEET AND FACILITY MANGEMENT"
+          }, {
+            "count" : 2,
+            "item" : "ARRA - FEDERAL - BROADBAND"
+          }, {
+            "count" : 1,
+            "item" : "ARRA - CPD - TRANSIT SECURITY GRANT"
+          } ]
+        },
+        "format" : {
+          "drill_down" : "true"
+        }
+      }, {
+        "id" : 35041799,
+        "name" : "DEPARTMENT DESCRIPTION",
+        "dataTypeName" : "text",
+        "fieldName" : "department_description",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5652178,
+        "width" : 258,
+        "cachedContents" : {
+          "non_null" : 288,
+          "smallest" : "BOARD OF ELECTION COMMISSIONER",
+          "null" : 0,
+          "largest" : "POLICE BOARD",
+          "top" : [ {
+            "count" : 20,
+            "item" : "OFFICE OF THE MAYOR"
+          }, {
+            "count" : 19,
+            "item" : "IG"
+          }, {
+            "count" : 18,
+            "item" : "OFFICE OF BUDGET & MANAGEMENT"
+          }, {
+            "count" : 17,
+            "item" : "DOIT"
+          }, {
+            "count" : 16,
+            "item" : "CITY COUNCIL"
+          }, {
+            "count" : 15,
+            "item" : "CITY CLERK"
+          }, {
+            "count" : 14,
+            "item" : "FINANCE"
+          }, {
+            "count" : 13,
+            "item" : "CITY TREASURER"
+          }, {
+            "count" : 12,
+            "item" : "DEPT OF ADMINISTRATIVE HEARING"
+          }, {
+            "count" : 11,
+            "item" : "DEPARTMENT OF LAW"
+          }, {
+            "count" : 10,
+            "item" : "DEPARTMENT OF HUMAN RESOURCES"
+          }, {
+            "count" : 9,
+            "item" : "DEPARTMENT OF PROCUREMENT SERV"
+          }, {
+            "count" : 8,
+            "item" : "FLEET AND FACILITY MGMT"
+          }, {
+            "count" : 7,
+            "item" : "BOARD OF ELECTION COMMISSIONER"
+          }, {
+            "count" : 6,
+            "item" : "DEPARTMENT OF PUBLIC HEALTH"
+          }, {
+            "count" : 5,
+            "item" : "COMMISSION ON HUMAN RELATIONS"
+          }, {
+            "count" : 4,
+            "item" : "MAYORS OFFICE-DISABILITIES"
+          }, {
+            "count" : 3,
+            "item" : "FAMILY AND SUPPORT SERVICES"
+          }, {
+            "count" : 2,
+            "item" : "HOUSING AND ECONOMIC DEVELOPMT"
+          }, {
+            "count" : 1,
+            "item" : "POLICE BOARD"
+          } ]
+        },
+        "format" : {
+          "drill_down" : "true"
+        }
+      }, {
+        "id" : 35041807,
+        "name" : "2013 APPROPRIATION ORDINANCE",
+        "dataTypeName" : "money",
+        "fieldName" : "appropriation_ordinance",
+        "position" : 3,
+        "renderTypeName" : "money",
+        "tableColumnId" : 5652183,
+        "width" : 271,
+        "cachedContents" : {
+          "non_null" : 288,
+          "smallest" : "0",
+          "sum" : "8745336000",
+          "null" : 0,
+          "average" : "30365750",
+          "largest" : "1250254874",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3000000"
+          } ]
+        },
+        "format" : {
+          "grouping_aggregate" : "sum"
+        }
+      }, {
+        "id" : 35041801,
+        "name" : "FUND CODE",
+        "dataTypeName" : "text",
+        "fieldName" : "fund_code",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5652175,
+        "width" : 150,
+        "cachedContents" : {
+          "non_null" : 288,
+          "smallest" : "0B05",
+          "null" : 0,
+          "largest" : "94",
+          "top" : [ {
+            "count" : 20,
+            "item" : "100"
+          }, {
+            "count" : 19,
+            "item" : "200"
+          }, {
+            "count" : 18,
+            "item" : "300"
+          }, {
+            "count" : 17,
+            "item" : "314"
+          }, {
+            "count" : 16,
+            "item" : "610"
+          }, {
+            "count" : 15,
+            "item" : "740"
+          }, {
+            "count" : 14,
+            "item" : "0B21"
+          }, {
+            "count" : 13,
+            "item" : "929"
+          }, {
+            "count" : 12,
+            "item" : "0M39"
+          }, {
+            "count" : 11,
+            "item" : "0P12"
+          }, {
+            "count" : 10,
+            "item" : "0P14"
+          }, {
+            "count" : 9,
+            "item" : "0P16"
+          }, {
+            "count" : 8,
+            "item" : "0P29"
+          }, {
+            "count" : 7,
+            "item" : "0P69"
+          }, {
+            "count" : 6,
+            "item" : "0P71"
+          }, {
+            "count" : 5,
+            "item" : "0P72"
+          }, {
+            "count" : 4,
+            "item" : "0P73"
+          }, {
+            "count" : 3,
+            "item" : "0P83"
+          }, {
+            "count" : 2,
+            "item" : "0S04"
+          }, {
+            "count" : 1,
+            "item" : "0S15"
+          } ]
+        },
+        "format" : {
+          "drill_down" : "true"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Last Updated Date via Automated Load" : "",
+            "Data Owner" : "Budget & Management",
+            "Time Period" : "2013",
+            "Frequency" : "Data is updated annually"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "thumbnail" : {
+          "page" : {
+            "created" : true,
+            "filename" : "page.png-1229.655.7.7.png",
+            "selection" : {
+              "height" : 655,
+              "width" : 1229,
+              "y1" : 7,
+              "y2" : 662,
+              "x2" : 1236,
+              "x1" : 7
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "bnmu-fxk9",
+        "displayName" : "Dave Guarino",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1355522063,
+        "screenName" : "Dave Guarino"
+      },
+      "query" : {
+        "groupBys" : [ {
+          "columnId" : 35041801,
+          "type" : "column"
+        }, {
+          "columnId" : 35041798,
+          "type" : "column"
+        }, {
+          "columnId" : 35041799,
+          "type" : "column"
+        } ]
+      },
+      "rights" : [ "read", "update_column", "update_view", "delete_view" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1327605094,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "tags" : [ "budget", "2013" ]
+    }
+  },
+  "data" : [ [ 17, "DF156175-CE7B-49CC-A0D3-18CE4D2CC998", 17, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "OFFICE OF THE MAYOR", "5723005", "100" ]
+, [ 39, "FFC2B557-A640-44A3-858C-5B6DF53A8905", 39, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "IG", "2541610", "100" ]
+, [ 54, "FDEECEF9-A917-420C-932B-32E425C9AA52", 54, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "OFFICE OF BUDGET & MANAGEMENT", "1662090", "100" ]
+, [ 72, "F1F5C0F6-8465-4A71-8C42-0C7326644BE9", 72, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DOIT", "23342705", "100" ]
+, [ 148, "FF04F723-3548-4B8F-BFA2-E8E0B2DF1E65", 148, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "CITY COUNCIL", "25919380", "100" ]
+, [ 160, "F9610A2F-EC4D-40E0-906D-F0575A9DAE32", 160, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "CITY CLERK", "2933042", "100" ]
+, [ 247, "FE8D1E1A-19A3-4646-ABC7-C36D7AABACC5", 247, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "FINANCE", "62067285", "100" ]
+, [ 265, "ECB0EBEB-1C9E-44E2-9375-4D4760C671A4", 265, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "CITY TREASURER", "2257354", "100" ]
+, [ 284, "F6CCC2A3-25C0-434A-ACB7-5A8B224AD4A0", 284, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPT OF ADMINISTRATIVE HEARING", "7335668", "100" ]
+, [ 311, "F303766B-C4B9-4441-9B28-5DAF25CA8CCB", 311, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPARTMENT OF LAW", "27884358", "100" ]
+, [ 333, "FB388CA8-327F-4C7E-9ED4-8C6F67EE5CF9", 333, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPARTMENT OF HUMAN RESOURCES", "5550170", "100" ]
+, [ 353, "FC59DC6E-E58B-48C2-BA34-F01047DD2D5F", 353, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPARTMENT OF PROCUREMENT SERV", "6129702", "100" ]
+, [ 432, "F3E90CD2-4F5A-4BA6-897F-8599D3C1CA7A", 432, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "FLEET AND FACILITY MGMT", "173134616", "100" ]
+, [ 458, "E849EC99-3811-4C45-BA29-A0B556DFDFF6", 458, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "BOARD OF ELECTION COMMISSIONER", "8722360", "100" ]
+, [ 500, "F96D564D-0FB8-45AE-8049-E5DE5401D930", 500, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPARTMENT OF PUBLIC HEALTH", "29317363", "100" ]
+, [ 516, "F9C86910-7BDD-467F-B27D-F74794DEEA28", 516, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "COMMISSION ON HUMAN RELATIONS", "1126567", "100" ]
+, [ 535, "F79BF45E-9E1E-40F1-8D9E-D9146CDBE012", 535, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "MAYORS OFFICE-DISABILITIES", "1124981", "100" ]
+, [ 562, "EC44E92C-DE25-4944-97CF-8526388F6ED9", 562, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "FAMILY AND SUPPORT SERVICES", "16912015", "100" ]
+, [ 598, "FC2137A6-A3BD-45B2-B468-A49B1B1E6AA2", 598, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "HOUSING AND ECONOMIC DEVELOPMT", "24730695", "100" ]
+, [ 611, "EAC12AC2-D78D-4AE2-B42E-3A460E2686DC", 611, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "POLICE BOARD", "434130", "100" ]
+, [ 630, "FABDB3BE-C0DB-4601-B31D-3F3943FB4AC5", 630, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "IPRA", "8293094", "100" ]
+, [ 681, "FDDD680B-2397-487B-85FE-00E67CBFDD06", 681, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPARTMENT OF POLICE", "1250254874", "100" ]
+, [ 715, "E976EEC6-8420-40DB-A794-458D1E65298D", 715, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "OEMC", "77502531", "100" ]
+, [ 762, "FCB22BB0-30B5-4997-9CC3-80D4DA0183B0", 762, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "FIRE DEPARTMENT", "525789677", "100" ]
+, [ 790, "FD7CE47B-E09A-4896-938E-C63CC9F3ACAB", 790, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPT OF BUILDINGS", "20752893", "100" ]
+, [ 824, "F69D89C1-C33F-4CCF-BD7C-397EC7F89A90", 824, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "BUS AFFAIRS AND CONSUMER PROT", "17843661", "100" ]
+, [ 850, "F8F9EA86-FBF1-42AC-9E35-AE1B3C309CA0", 850, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "COMM ANIMAL CARE AND CONTROL", "4992064", "100" ]
+, [ 860, "EC8B393C-F173-4B94-93E8-45D2C7514736", 860, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "LICENSE APPEAL COMMISSION", "168295", "100" ]
+, [ 873, "FC73CE25-25C6-4C37-A8B4-A6569D166EE3", 873, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "BOARD OF ETHICS", "770177", "100" ]
+, [ 983, "FF57593E-BE77-45A6-A991-12E498204EC2", 983, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "DEPT STREETS AND SANITATION", "199485930", "100" ]
+, [ 1123, "FC65CD00-2CC0-4F82-B79F-821EF1B14C98", 1123, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "CHICAGO DEPT OF TRANSPORTATION", "55577531", "100" ]
+, [ 1160, "FE769249-3B5E-475A-85C7-CC1528223DED", 1160, 1354204722, "386464", 1354204722, "386464", "{\n}", "CORPORATE FUND", "FINANCE GENERAL", "568275177", "100" ]
+, [ 1182, "F60C2CF8-17DB-4760-BD8C-F7FA54827CC5", 1182, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "IG", "1148622", "200" ]
+, [ 1183, "3AE014DE-095A-4C33-B6F4-2B8C1752B2F4", 1183, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "OFFICE OF BUDGET & MANAGEMENT", "107554", "200" ]
+, [ 1187, "D51CDD64-406B-48EF-8105-A573E35903AF", 1187, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DOIT", "6380664", "200" ]
+, [ 1209, "ECAE1365-5CAF-4979-B075-2271FF2694FE", 1209, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "FINANCE", "9823107", "200" ]
+, [ 1235, "FC38C01E-D857-4C41-B967-8AB380C04CFC", 1235, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DEPARTMENT OF LAW", "1431238", "200" ]
+, [ 1241, "DF20C408-2B95-42AE-8250-F727AE71924A", 1241, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DEPARTMENT OF HUMAN RESOURCES", "205142", "200" ]
+, [ 1242, "322343BC-82CE-436C-A448-20E05870B883", 1242, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DEPARTMENT OF PROCUREMENT SERV", "202956", "200" ]
+, [ 1257, "EE9595B2-874D-4E0E-AF48-0FB8A74B64F3", 1257, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "FLEET AND FACILITY MGMT", "35057441", "200" ]
+, [ 1265, "FB8BA22A-0238-4E19-A867-D99DB4CACD72", 1265, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DEPT OF BUILDINGS", "2076515", "200" ]
+, [ 1419, "FE7BE519-34A6-49CF-A983-680F5B9E731F", 1419, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "DEPT OF WATER MANAGEMENT", "191521741", "200" ]
+, [ 1447, "F1025741-8C00-4583-9EF8-344902F6CF7A", 1447, 1354204722, "386464", 1354204722, "386464", "{\n}", "WATER FUND", "FINANCE GENERAL", "384954020", "200" ]
+, [ 1451, "D96FE5B7-90A9-4192-92AE-07E5FA996AE8", 1451, 1354204722, "386464", 1354204722, "386464", "{\n}", "VEHICLE FUND", "CITY COUNCIL", "648054", "300" ]
+, [ 1465, "FCDBA7A3-C547-47E9-A85F-8E7DEC53A3FF", 1465, 1354204722, "386464", 1354204722, "386464", "{\n}", "VEHICLE FUND", "CITY CLERK", "6044973", "300" ]
+, [ 1471, "AAD3A283-8B43-4BA4-BCE7-C93441A357BC", 1471, 1354204722, "386464", 1354204722, "386464", "{\n}", "VEHICLE FUND", "FINANCE", "718310", "300" ]
+, [ 1498, "EDBE3105-5844-4176-BF1D-776C3E4DB268", 1498, 1354204722, "386464", 1354204722, "386464", "{\n}", "VEHICLE FUND", "DEPARTMENT OF LAW", "1276184", "300" ]
+, [ 1507, "F3BEAA11-8FA1-41A7-96D0-975AF74DF225", 1507, 1354204723, "386464", 1354204723, "386464", "{\n}", "VEHICLE FUND", "FLEET AND FACILITY MGMT", "12053055", "300" ]
+, [ 1512, "EFF43144-F392-4EFB-B204-73567C14E4FD", 1512, 1354204723, "386464", 1354204723, "386464", "{\n}", "VEHICLE FUND", "DEPT OF BUILDINGS", "546809", "300" ]
+, [ 1571, "FDD269F1-2E2E-4BCB-A37F-20149D34D269", 1571, 1354204723, "386464", 1354204723, "386464", "{\n}", "VEHICLE FUND", "DEPT STREETS AND SANITATION", "40940913", "300" ]
+, [ 1699, "FCF6DED1-9CC7-452B-9663-E17AAE00F5B7", 1699, 1354204723, "386464", 1354204723, "386464", "{\n}", "VEHICLE FUND", "CHICAGO DEPT OF TRANSPORTATION", "51028640", "300" ]
+, [ 1720, "F6BC9678-5157-4244-AB55-4423A0417A47", 1720, 1354204723, "386464", 1354204723, "386464", "{\n}", "VEHICLE FUND", "FINANCE GENERAL", "56472062", "300" ]
+, [ 1721, "2D4843FE-94FC-4C12-BEA1-E2ED95C091D6", 1721, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOTOR FUEL TAX FUND", "FLEET AND FACILITY MGMT", "12135000", "310" ]
+, [ 1729, "D5CFBF71-A165-4D6C-BB6A-65F0FD49063F", 1729, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOTOR FUEL TAX FUND", "DEPT STREETS AND SANITATION", "20368550", "310" ]
+, [ 1740, "FF603D5C-2C68-4B40-8402-A8E36551D89B", 1740, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOTOR FUEL TAX FUND", "CHICAGO DEPT OF TRANSPORTATION", "20596450", "310" ]
+, [ 1743, "C0E6A859-C662-427D-A07D-EF586E3DFABA", 1743, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOTOR FUEL TAX FUND", "FINANCE GENERAL", "18619000", "310" ]
+, [ 1765, "DD6518C2-DF51-41CD-A9A1-9A63394C097C", 1765, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "IG", "776999", "314" ]
+, [ 1767, "CAB725B2-9167-42A1-A15B-F32760859111", 1767, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "FINANCE", "65675", "314" ]
+, [ 1792, "FD44A098-A49A-454E-AE3B-5125F126F325", 1792, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "DEPARTMENT OF LAW", "694502", "314" ]
+, [ 1805, "CB23CF46-3DB5-458A-8FC3-E44602117738", 1805, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "FLEET AND FACILITY MGMT", "5767888", "314" ]
+, [ 1814, "ED6E7872-C4B6-4086-95D5-EA7DAC353900", 1814, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "DEPT OF BUILDINGS", "2246325", "314" ]
+, [ 1849, "FE51776B-106C-431E-A149-536152B9373E", 1849, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "DEPT OF WATER MANAGEMENT", "71637086", "314" ]
+, [ 1875, "FE509658-556C-45DE-A2FC-03802FB69D8B", 1875, 1354204723, "386464", 1354204723, "386464", "{\n}", "SEWER FUND", "FINANCE GENERAL", "198998525", "314" ]
+, [ 1881, "FDC19B35-D53A-442A-9D3A-8AC490C8FBB8", 1881, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F BUILDING/SITE", "FLEET AND FACILITY MGMT", "4672000", "342" ]
+, [ 1882, "0DB7A608-5222-4669-8BF4-C3FB9F49B7F6", 1882, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F BUILDING/SITE", "CHICAGO PUBLIC LIBRARY", "423000", "342" ]
+, [ 1883, "9855FFFA-B7B7-4B9B-BBC7-AF69B18D913E", 1883, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F BUILDING/SITE", "FINANCE GENERAL", "166000", "342" ]
+, [ 1885, "F3320CA1-0847-4339-80C2-EB1E8099B3A3", 1885, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F MAINT/OPERATN", "DOIT", "1188676", "346" ]
+, [ 1896, "E7DD7093-69FF-41EA-8D19-67DE727CBD9D", 1896, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F MAINT/OPERATN", "FLEET AND FACILITY MGMT", "8899147", "346" ]
+, [ 1923, "FCD4516C-262C-4611-9DF6-C9093BA05D72", 1923, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F MAINT/OPERATN", "CHICAGO PUBLIC LIBRARY", "50564594", "346" ]
+, [ 1938, "FA7232E1-F45E-411F-88AF-8E9002A22172", 1938, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB F MAINT/OPERATN", "FINANCE GENERAL", "24056583", "346" ]
+, [ 1940, "A65A7FEC-3F29-4643-9526-F802CD4E0A7A", 1940, 1354204723, "386464", 1354204723, "386464", "{\n}", "EMERGENCY COMMUN FD", "FINANCE GENERAL", "66686000", "353" ]
+, [ 1941, "D1FAAAD1-94EE-4246-8CB0-D01C582BB978", 1941, 1354204723, "386464", 1354204723, "386464", "{\n}", "SPECIAL EVENTS / MUNICIPAL HOTEL T/F", "OFFICE OF THE MAYOR", "450945", "355" ]
+, [ 1945, "F5E1B8B7-DE14-4198-B90A-093076C788E0", 1945, 1354204723, "386464", 1354204723, "386464", "{\n}", "SPECIAL EVENTS / MUNICIPAL HOTEL T/F", "CITY COUNCIL", "154720", "355" ]
+, [ 1985, "FAC0EB70-E748-4CBF-931F-C30F420CFD50", 1985, 1354204723, "386464", 1354204723, "386464", "{\n}", "SPECIAL EVENTS / MUNICIPAL HOTEL T/F", "CULTURAL AFFAIRS SPECIAL EVENT", "31981927", "355" ]
+, [ 1998, "E7E28856-B2DC-4E27-BE9A-288B02A7865B", 1998, 1354204723, "386464", 1354204723, "386464", "{\n}", "SPECIAL EVENTS / MUNICIPAL HOTEL T/F", "FINANCE GENERAL", "6617408", "355" ]
+, [ 2000, "EB529BE0-102A-4EFB-8CA1-E6ABBB71C9B2", 2000, 1354204723, "386464", 1354204723, "386464", "{\n}", "SALES TAX BOND", "FINANCE GENERAL", "38562000", "505" ]
+, [ 2003, "E9E1D54B-227F-412E-83CB-375C03201DC4", 2003, 1354204723, "386464", 1354204723, "386464", "{\n}", "BOND REDMPTN/IN F", "FINANCE GENERAL", "531068000", "510" ]
+, [ 2006, "ACE2E422-DE83-4532-A7B6-540F14396C2A", 2006, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIBRARY BOND REDEMPTION", "FINANCE GENERAL", "4340000", "516" ]
+, [ 2008, "BBE8AE7D-DB44-497E-805A-5705AB4DE4B7", 2008, 1354204723, "386464", 1354204723, "386464", "{\n}", "LIB NOTE RED/INT-B", "FINANCE GENERAL", "75231000", "521" ]
+, [ 2010, "1E87BE95-AC8E-43A8-80FE-91774E5F5AF2", 2010, 1354204723, "386464", 1354204723, "386464", "{\n}", "EMERGENCY COMMUN BD", "FINANCE GENERAL", "22324000", "525" ]
+, [ 2013, "F4A28E46-D85E-47A0-AE05-905CE9818972", 2013, 1354204723, "386464", 1354204723, "386464", "{\n}", "CITY COL RED/INT-D", "FINANCE GENERAL", "36632000", "549" ]
+, [ 2027, "FFC55825-3C93-4D25-8210-25CBA5DC0163", 2027, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "FINANCE", "445383", "610" ]
+, [ 2052, "EA6948A2-BD84-41FD-B105-5F05806D2BA6", 2052, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "DEPARTMENT OF LAW", "509718", "610" ]
+, [ 2054, "CB16A2E1-BA10-4852-A887-F1A4D313CC3C", 2054, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "DEPARTMENT OF HUMAN RESOURCES", "68077", "610" ]
+, [ 2072, "F86D6D53-6294-4E8D-81A2-5C19CF270E45", 2072, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "FLEET AND FACILITY MGMT", "10069921", "610" ]
+, [ 2084, "C6F98377-1E3C-44B4-A95C-4EC9B5BC388A", 2084, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "DEPARTMENT OF POLICE", "5363602", "610" ]
+, [ 2090, "E1942E74-F794-4FC6-A008-5C0345C2C8F6", 2090, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "OEMC", "2048297", "610" ]
+, [ 2105, "EEF51C23-63A4-472D-A392-49B1EF1F1869", 2105, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "FIRE DEPARTMENT", "7016726", "610" ]
+, [ 2158, "F2422E6A-AAAC-4942-BF8F-A0319BDC4FFF", 2158, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "DEPARTMENT OF AVIATION", "83251133", "610" ]
+, [ 2182, "FD50BEC7-6EAB-4A9E-8477-0E07A05E0D82", 2182, 1354204723, "386464", 1354204723, "386464", "{\n}", "MIDWAY AIRPORT FUND", "FINANCE GENERAL", "121210143", "610" ]
+, [ 2183, "18D1E7C8-C97A-4363-80BE-BFC0B61094B0", 2183, 1354204723, "386464", 1354204723, "386464", "{\n}", "MUNICIPAL EMPLOYEE", "FINANCE GENERAL", "162743000", "681" ]
+, [ 2184, "81B623C7-2007-475F-812B-FA95BE15DD41", 2184, 1354204723, "386464", 1354204723, "386464", "{\n}", "LABORERS'/RETIREMNT", "FINANCE GENERAL", "14616000", "682" ]
+, [ 2185, "7137BF44-92E0-4ED7-859A-042DFE8DB6E6", 2185, 1354204723, "386464", 1354204723, "386464", "{\n}", "POLICEMEN ANN/BENFT", "FINANCE GENERAL", "192564000", "683" ]
+, [ 2187, "D418E0EB-6BFF-4CF0-9C76-43ECE86A8DD2", 2187, 1354204723, "386464", 1354204723, "386464", "{\n}", "FIREMENS ANN/BENFT", "FINANCE GENERAL", "109532000", "684" ]
+, [ 2209, "F8FD6A5C-853B-42BF-A3E9-47BCA5E04A3F", 2209, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "IG", "1302008", "740" ]
+, [ 2228, "F28AB811-3C18-4E00-9236-DC83496E753C", 2228, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "FINANCE", "2222318", "740" ]
+, [ 2229, "0C50FB66-327E-4904-97C1-D202A2EC5E83", 2229, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "CITY TREASURER", "72516", "740" ]
+, [ 2255, "FC5AA91B-AC2B-4FB1-BD19-B503D124BF2C", 2255, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "DEPARTMENT OF LAW", "1816451", "740" ]
+, [ 2262, "C7D93665-E1CB-4F1E-83B1-396C7FE38939", 2262, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "DEPARTMENT OF HUMAN RESOURCES", "236840", "740" ]
+, [ 2270, "D922AB70-8045-473E-8A1A-0B3EDFD41A0F", 2270, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "DEPARTMENT OF PROCUREMENT SERV", "1429893", "740" ]
+, [ 2290, "FFFD4D99-27D7-4858-B319-8A897ADF9F6C", 2290, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "FLEET AND FACILITY MGMT", "46713641", "740" ]
+, [ 2302, "FAE12128-F2AC-46B0-8476-B8CE68C710E3", 2302, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "DEPARTMENT OF POLICE", "15529459", "740" ]
+, [ 2308, "BFAFD701-CBB4-4665-814D-DB5B85EEA566", 2308, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "OEMC", "4634485", "740" ]
+, [ 2323, "D533075B-BD95-467C-AE8D-5744B119B93A", 2323, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "FIRE DEPARTMENT", "22049589", "740" ]
+, [ 2383, "FE611C84-E50E-40F7-8DB4-B9477EA97211", 2383, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "DEPARTMENT OF AVIATION", "311714840", "740" ]
+, [ 2411, "FDC92F01-3E8A-45E6-869A-FDF066A4CDC8", 2411, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE REVENUE FUND", "FINANCE GENERAL", "557091960", "740" ]
+, [ 2413, "9D42A704-3DA3-4A8E-9F18-590D2F64DFBC", 2413, 1354204723, "386464", 1354204723, "386464", "{\n}", "CTA REAL PROPERTY TRANSFER TAX", "FINANCE GENERAL", "37920000", "0B09" ]
+, [ 2414, "0FA3F101-F0A2-4227-B2B4-ED5C7C5ABBB6", 2414, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "OFFICE OF BUDGET & MANAGEMENT", "156895", "0B21" ]
+, [ 2418, "EB86B3AA-F79E-43DB-85DC-BDEA7632EF8E", 2418, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "FINANCE", "624755", "0B21" ]
+, [ 2419, "77AD3F0A-51D4-41D5-B1E8-2E5439445F4B", 2419, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "CITY TREASURER", "85020", "0B21" ]
+, [ 2420, "7FAB5DA9-1D6B-40C0-81C4-56DCC8AA3D91", 2420, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "DEPARTMENT OF LAW", "1122766", "0B21" ]
+, [ 2423, "B79393C1-73C2-4FDE-AB40-398B5A114965", 2423, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "HOUSING AND ECONOMIC DEVELOPMT", "4013564", "0B21" ]
+, [ 2427, "DA3CD932-65A9-4A05-9611-1D9702149943", 2427, 1354204723, "386464", 1354204723, "386464", "{\n}", "TIF ADMINISTRATION", "FINANCE GENERAL", "3212000", "0B21" ]
+, [ 2428, "5AB20D27-A000-4A74-BBEE-E1E75B4D65A2", 2428, 1354204723, "386464", 1354204723, "386464", "{\n}", "GREENSTREETS", "CHICAGO DEPT OF TRANSPORTATION", "100000", "11" ]
+, [ 2433, "DC6C7C5C-430A-471E-AC8A-EB65348724C0", 2433, 1354204723, "386464", 1354204723, "386464", "{\n}", "FEDERAL HIGHWAY BRIDGE", "CHICAGO DEPT OF TRANSPORTATION", "7093000", "17" ]
+, [ 2435, "D6B1C253-C06F-4AA8-B3A4-7D1A57C461BD", 2435, 1354204723, "386464", 1354204723, "386464", "{\n}", "UNDERGROUND STORAGE TANK", "DEPARTMENT OF PUBLIC HEALTH", "550000", "23" ]
+, [ 2436, "38A0DEE0-11C6-4E63-9AE8-8892CCD58A54", 2436, 1354204723, "386464", 1354204723, "386464", "{\n}", "GROUP \"A\" PRELIMINARY ENGINEER", "CHICAGO DEPT OF TRANSPORTATION", "2815000", "27" ]
+, [ 2453, "F127542D-88B7-4A82-915D-9AF85B979FEE", 2453, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEALTH - STD CONTROL PROGRAM", "DEPARTMENT OF PUBLIC HEALTH", "4328000", "50" ]
+, [ 2454, "155A9E16-58DE-42F8-8907-529EECE92171", 2454, 1354204723, "386464", 1354204723, "386464", "{\n}", "DPD MISC. STATE GRANT", "HOUSING AND ECONOMIC DEVELOPMT", "24000", "64" ]
+, [ 2456, "9F815E54-77D4-456A-BAA7-7EC1737EBB99", 2456, 1354204723, "386464", 1354204723, "386464", "{\n}", "EMERGENCY SHELTER PROGRAM", "FAMILY AND SUPPORT SERVICES", "4815000", "66" ]
+, [ 2466, "B90423D6-BF14-4E60-B907-C90143C8A355", 2466, 1354204723, "386464", 1354204723, "386464", "{\n}", "DENTAL SEALANT GRANT", "DEPARTMENT OF PUBLIC HEALTH", "286000", "71" ]
+, [ 2467, "51EF2071-798A-4554-9CFF-F74C1C26D79C", 2467, 1354204723, "386464", 1354204723, "386464", "{\n}", "AGING-PRIVATELY FUNDED", "FAMILY AND SUPPORT SERVICES", "25000", "74" ]
+, [ 2476, "DBFCB04D-77C1-4E6D-9DCE-9FE20F3B2D1C", 2476, 1354204723, "386464", 1354204723, "386464", "{\n}", "OBM GRANT MANAGEMT", "OFFICE OF BUDGET & MANAGEMENT", "1680000", "75" ]
+, [ 2478, "D586C931-1A58-4303-AF81-F93D5B7D8393", 2478, 1354204723, "386464", 1354204723, "386464", "{\n}", "DGS PROGRAMS", "FLEET AND FACILITY MGMT", "1122000", "79" ]
+, [ 2479, "E35BC413-866C-45DB-A21A-A2E85044A86E", 2479, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT AGING-STATE", "FAMILY AND SUPPORT SERVICES", "56000", "93" ]
+, [ 2481, "71CA132F-1849-4A73-A6C9-33AABE4776AD", 2481, 1354204723, "386464", 1354204723, "386464", "{\n}", "DOMESTIC VIOLENCE-PRIVATE SUPPORT", "DEPARTMENT OF POLICE", "512000", "94" ]
+, [ 2482, "E4F7B32D-9B1F-4C5D-964A-9573BD3E7037", 2482, 1354204723, "386464", 1354204723, "386464", "{\n}", "WINTER SHELTER HMLS", "FAMILY AND SUPPORT SERVICES", "15000", "168" ]
+, [ 2484, "BB9795EB-59B7-46D4-8A32-551FE3B26B63", 2484, 1354204723, "386464", 1354204723, "386464", "{\n}", "CULTURAL AFFAIR ACT", "CULTURAL AFFAIRS SPECIAL EVENT", "189000", "213" ]
+, [ 2496, "C01199AC-C236-4AE1-9459-ACA531710862", 2496, 1354204723, "386464", 1354204723, "386464", "{\n}", "ILL DEPT HLTH PGM", "DEPARTMENT OF PUBLIC HEALTH", "1400000", "226" ]
+, [ 2500, "C07BAD49-F826-429B-9D54-2E4C15BF91CC", 2500, 1354204723, "386464", 1354204723, "386464", "{\n}", "TRANSPORTATION SECURITY ADMIN AGRMT", "DEPARTMENT OF POLICE", "0", "243" ]
+, [ 2506, "E0B12956-1013-4C34-AB02-1FDD7091266E", 2506, 1354204723, "386464", 1354204723, "386464", "{\n}", "ST LEAD POISONG/VIS", "DEPARTMENT OF PUBLIC HEALTH", "900000", "248" ]
+, [ 2560, "FE7174BF-74E2-4185-9E34-F3DEABDEC3A3", 2560, 1354204723, "386464", 1354204723, "386464", "{\n}", "FED AIDS PREV SUR", "DEPARTMENT OF PUBLIC HEALTH", "14487000", "260" ]
+, [ 2581, "F322C0D1-B7E6-423B-8595-82F6F95317FF", 2581, 1354204723, "386464", 1354204723, "386464", "{\n}", "TB AND IMMUNIZATION", "DEPARTMENT OF PUBLIC HEALTH", "7825000", "261" ]
+, [ 2583, "B72870E4-3863-49D7-B994-3356D5803416", 2583, 1354204723, "386464", 1354204723, "386464", "{\n}", "COOK COUNTY GRANT", "DEPARTMENT OF PUBLIC HEALTH", "1014000", "262" ]
+, [ 2587, "70C5E8D8-7340-4F88-AACE-23C57FC2F3D1", 2587, 1354204723, "386464", 1354204723, "386464", "{\n}", "ST GENETICS CASE MG", "DEPARTMENT OF PUBLIC HEALTH", "132000", "263" ]
+, [ 2590, "460F8B37-9F64-4B3A-BDE0-9540247F26FB", 2590, 1354204723, "386464", 1354204723, "386464", "{\n}", "ENVIRONMENTAL PGM", "DEPARTMENT OF PUBLIC HEALTH", "150000", "267" ]
+, [ 2595, "E153DD8D-50A3-4B65-9812-9028B6A4EFE5", 2595, 1354204723, "386464", 1354204723, "386464", "{\n}", "ICJIA GRANT", "FAMILY AND SUPPORT SERVICES", "1014000", "272" ]
+, [ 2598, "BC07ABA3-F76B-4FE2-823D-8E77880090F5", 2598, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHICAGO TRAFFIC RECORDS SYSTEM", "CHICAGO DEPT OF TRANSPORTATION", "3003000", "283" ]
+, [ 2602, "7069F484-C662-4BD1-9E97-23FE531686DC", 2602, 1354204723, "386464", 1354204723, "386464", "{\n}", "ST AIDS PREV/VECTOR", "DEPARTMENT OF PUBLIC HEALTH", "765000", "315" ]
+, [ 2622, "EEA884C7-8B67-4F75-8967-3D349BE343EB", 2622, 1354204723, "386464", 1354204723, "386464", "{\n}", "LOCAL HEALTH PROTECTION", "DEPARTMENT OF PUBLIC HEALTH", "3945000", "352" ]
+, [ 2634, "F6B37E0F-4C6A-4E9A-8176-D7C669065241", 2634, 1354204723, "386464", 1354204723, "386464", "{\n}", "FEDERAL T.B. CNTL", "DEPARTMENT OF PUBLIC HEALTH", "1842000", "382" ]
+, [ 2636, "65C9E291-9E24-4C13-BB0C-261B8A77EF3F", 2636, 1354204723, "386464", 1354204723, "386464", "{\n}", "DISC. BRIDGE PROGRAM", "CHICAGO DEPT OF TRANSPORTATION", "4600000", "385" ]
+, [ 2647, "FCB6FAFA-002C-4494-8077-858588B6BB1E", 2647, 1354204723, "386464", 1354204723, "386464", "{\n}", "EPIDEMIOLOGY AND LAB CAPACITY", "DEPARTMENT OF PUBLIC HEALTH", "1540000", "517" ]
+, [ 2648, "ED3F2E8F-8084-48BF-8932-AB2F488E5D30", 2648, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDOA SPECIAL INITIATIVES", "FAMILY AND SUPPORT SERVICES", "894000", "529" ]
+, [ 2651, "7EBE716E-C5C5-4564-BF82-F7ED7D2C6916", 2651, 1354204723, "386464", 1354204723, "386464", "{\n}", "AIDS-CARE ACT", "DOIT", "252151", "562" ]
+, [ 2674, "F9B89222-DC88-499C-911F-C55F042D3A90", 2674, 1354204723, "386464", 1354204723, "386464", "{\n}", "AIDS-CARE ACT", "DEPARTMENT OF PUBLIC HEALTH", "28785849", "562" ]
+, [ 2688, "FF1F033B-6ACB-4849-B6E5-F732CAF54802", 2688, 1354204723, "386464", 1354204723, "386464", "{\n}", "WIC", "DEPARTMENT OF PUBLIC HEALTH", "5100000", "566" ]
+, [ 2708, "EF42259A-3C1D-4D2C-9E41-89249454FCCB", 2708, 1354204723, "386464", 1354204723, "386464", "{\n}", "MCH", "DEPARTMENT OF PUBLIC HEALTH", "5018000", "567" ]
+, [ 2722, "EFB36DCD-D8F2-4B74-A065-FC2276499005", 2722, 1354204723, "386464", 1354204723, "386464", "{\n}", "HOPWA/HUD", "DEPARTMENT OF PUBLIC HEALTH", "8858000", "578" ]
+, [ 2724, "930375B3-4D3A-4E0E-BB5C-862B43BC8EC4", 2724, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHILD CARE", "FINANCE", "125679", "585" ]
+, [ 2728, "85F71DC5-C0BA-4DC2-8CD8-4A89E0B23F74", 2728, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHILD CARE", "FAMILY AND SUPPORT SERVICES", "25874321", "585" ]
+, [ 2735, "F545D978-8CAA-4FE1-9DD8-A8D4EB8AD97A", 2735, 1354204723, "386464", 1354204723, "386464", "{\n}", "VARIOUS HEALTH GRANTS", "DEPARTMENT OF PUBLIC HEALTH", "95000", "594" ]
+, [ 2738, "1F1D3FC7-B2BA-444C-A213-6C91E3B414F7", 2738, 1354204723, "386464", 1354204723, "386464", "{\n}", "MENTAL HEALTH", "DEPARTMENT OF PUBLIC HEALTH", "2521000", "595" ]
+, [ 2739, "D787E405-8027-43DB-B715-F3D8400ACEF8", 2739, 1354204723, "386464", 1354204723, "386464", "{\n}", "DASA", "DEPARTMENT OF PUBLIC HEALTH", "670000", "596" ]
+, [ 2740, "7074E2BF-1943-4F5F-8712-66C89ACE205D", 2740, 1354204723, "386464", 1354204723, "386464", "{\n}", "STATE IMPROV PROJ", "CHICAGO DEPT OF TRANSPORTATION", "60480000", "597" ]
+, [ 2743, "D93650D2-DBC2-4844-84AF-8B1BED49DC58", 2743, 1354204723, "386464", 1354204723, "386464", "{\n}", "BIKE PATH PROGRAM", "CHICAGO DEPT OF TRANSPORTATION", "4535000", "598" ]
+, [ 2744, "F335E004-1B23-47C1-BF8D-90474A6BD7CA", 2744, 1354204723, "386464", 1354204723, "386464", "{\n}", "DONATED FD INIT-MOP", "FAMILY AND SUPPORT SERVICES", "1101000", "599" ]
+, [ 2748, "CEBF0AF2-6AEC-47BD-8EEB-51242A4C36A0", 2748, 1354204723, "386464", 1354204723, "386464", "{\n}", "AIP-MIDWAY", "DEPARTMENT OF AVIATION", "49741000", "623" ]
+, [ 2754, "F69E6540-AC1C-4E4D-AA0B-65F4C745D838", 2754, 1354204723, "386464", 1354204723, "386464", "{\n}", "O'HARE AIRPORT", "DEPARTMENT OF AVIATION", "368422000", "624" ]
+, [ 2756, "9D6C7862-94CC-4C5A-89B4-5C0779C51D02", 2756, 1354204723, "386464", 1354204723, "386464", "{\n}", "FEDERAL HIGHWAY ADMINISTRATION", "CHICAGO DEPT OF TRANSPORTATION", "2000000", "636" ]
+, [ 2760, "FBFD632A-F942-43BB-B0B1-24F62B6BE6E6", 2760, 1354204723, "386464", 1354204723, "386464", "{\n}", "SPECIAL DEPOSITS", "DEPARTMENT OF PUBLIC HEALTH", "250000", "648" ]
+, [ 2765, "D82843F3-DF60-4DAF-A342-B71C92705D31", 2765, 1354204723, "386464", 1354204723, "386464", "{\n}", "POLICE PROGRAM", "DEPARTMENT OF POLICE", "2950000", "657" ]
+, [ 2766, "3864C68E-D8B4-4DAB-9D9F-256C9D28123D", 2766, 1354204723, "386464", 1354204723, "386464", "{\n}", "LINCOLN PARK MUSEUM TROLLEY", "CHICAGO DEPT OF TRANSPORTATION", "129000", "702" ]
+, [ 2772, "D15200A3-3137-4EAC-AAC4-D75AE9528BAB", 2772, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOPD FEDERAL GRANTS", "MAYORS OFFICE-DISABILITIES", "670000", "716" ]
+, [ 2773, "D13E73AB-E574-4DBD-A7FD-16A6A31AE112", 2773, 1354204723, "386464", 1354204723, "386464", "{\n}", "OPEN SPACE LAND ACQ", "HOUSING AND ECONOMIC DEVELOPMT", "575000", "770" ]
+, [ 2775, "BBE70750-DB8E-49C8-84FB-46F36D5E66CA", 2775, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHICAGO METROPOLITAN AGENCY FOR PLANNING", "CHICAGO DEPT OF TRANSPORTATION", "868000", "772" ]
+, [ 2776, "1BF6FBE5-212B-405C-A306-E0489D166483", 2776, 1354204723, "386464", 1354204723, "386464", "{\n}", "VERT CLEAR IMPROVE", "CHICAGO DEPT OF TRANSPORTATION", "4140000", "774" ]
+, [ 2778, "DA129F10-CD71-4832-B403-457D45F982EE", 2778, 1354204723, "386464", 1354204723, "386464", "{\n}", "STP-FEDERAL CONSTRT", "CHICAGO DEPT OF TRANSPORTATION", "119827000", "781" ]
+, [ 2779, "04D9B500-AD83-4331-A00A-FF8E033C2E50", 2779, 1354204723, "386464", 1354204723, "386464", "{\n}", "ILLINOIS DEPARTMENT OF TRANSPORTATION", "OEMC", "229000", "783" ]
+, [ 2788, "FD3C5FED-30BA-41E8-93C7-1DF29A0F83E4", 2788, 1354204723, "386464", 1354204723, "386464", "{\n}", "ILLINOIS DEPARTMENT OF TRANSPORTATION", "CHICAGO DEPT OF TRANSPORTATION", "105213000", "783" ]
+, [ 2792, "DE7701EC-12C9-4CC8-8CDC-9A47D26E8685", 2792, 1354204723, "386464", 1354204723, "386464", "{\n}", "CMAQ", "CHICAGO DEPT OF TRANSPORTATION", "157361000", "784" ]
+, [ 2793, "4D8EC3A8-BA4E-42E5-BE0E-26BF70B84062", 2793, 1354204723, "386464", 1354204723, "386464", "{\n}", "HAZARDOUS MATERIAL", "FIRE DEPARTMENT", "3894000", "790" ]
+, [ 2794, "5DFFCC37-7685-4C28-81B4-BB2579CF65E0", 2794, 1354204723, "386464", 1354204723, "386464", "{\n}", "BIS GRANTS", "DOIT", "566000", "792" ]
+, [ 2804, "EAACF6A9-5FD6-4022-A672-F17AF95AA3A9", 2804, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEALTH - PUBLIC HEALTH PROGRAMS", "DEPARTMENT OF PUBLIC HEALTH", "1259000", "799" ]
+, [ 2806, "38639CFC-F7FF-457F-B54A-A886C692F054", 2806, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPL CONSTRUCTION", "CHICAGO PUBLIC LIBRARY", "10275000", "815" ]
+, [ 2810, "B0F70F18-4D4E-423D-95D9-88CF662CFB91", 2810, 1354204723, "386464", 1354204723, "386464", "{\n}", "CENTRAL AREA RAPID TRANSIT", "CHICAGO DEPT OF TRANSPORTATION", "10650000", "817" ]
+, [ 2812, "DC01EAA1-2447-4C02-862C-0E0B175DD286", 2812, 1354204723, "386464", 1354204723, "386464", "{\n}", "ACCESS CHICAGO SUP", "MAYORS OFFICE-DISABILITIES", "215000", "819" ]
+, [ 2813, "29FE18FA-8540-4282-B637-86F9C7BFEA5D", 2813, 1354204723, "386464", 1354204723, "386464", "{\n}", "PUB LIB STATE GRANT", "CHICAGO PUBLIC LIBRARY", "2000", "821" ]
+, [ 2817, "A53E96FF-D408-407B-80F5-7B551CB04050", 2817, 1354204723, "386464", 1354204723, "386464", "{\n}", "POLICE DEPT FEDERAL", "DEPARTMENT OF POLICE", "252000", "824" ]
+, [ 2821, "9608A43E-4B68-46B2-874E-6849B8B297D7", 2821, 1354204723, "386464", 1354204723, "386464", "{\n}", "FIRE ACAD TRNG/IMP", "FIRE DEPARTMENT", "5421000", "825" ]
+, [ 2822, "2F9DFC8E-470F-41CA-A6E1-6BC7AC7B0C07", 2822, 1354204723, "386464", 1354204723, "386464", "{\n}", "DCEO", "CHICAGO DEPT OF TRANSPORTATION", "6233000", "827" ]
+, [ 2826, "F2E41598-6E02-493A-8567-1BA6F93ABC58", 2826, 1354204723, "386464", 1354204723, "386464", "{\n}", "MOPD PRIVATE FUNDED", "MAYORS OFFICE-DISABILITIES", "235000", "833" ]
+, [ 2828, "7F463A3B-ACE0-4213-BDE3-0513426A2B79", 2828, 1354204723, "386464", 1354204723, "386464", "{\n}", "IDOT LEGISLATIVE GRANT PRJTS", "CHICAGO DEPT OF TRANSPORTATION", "4100000", "834" ]
+, [ 2829, "3CDAAB17-0CCB-4C15-A196-74A136558308", 2829, 1354204723, "386464", 1354204723, "386464", "{\n}", "PUBLIC HEALTH FED HEALTH", "FAMILY AND SUPPORT SERVICES", "364000", "842" ]
+, [ 2833, "F9CD4822-79F6-4665-B507-8DDA5550A99C", 2833, 1354204723, "386464", 1354204723, "386464", "{\n}", "POLICE STATE FUNDS", "DEPARTMENT OF POLICE", "1265000", "845" ]
+, [ 2836, "F7154340-702F-49B3-B256-F1E2FBC4E018", 2836, 1354204723, "386464", 1354204723, "386464", "{\n}", "DOH BIOTERRORISM GRANT PGM", "DOIT", "502398", "847" ]
+, [ 2866, "FFF3AA94-5CCD-43F4-B754-A24AAAA97580", 2866, 1354204723, "386464", 1354204723, "386464", "{\n}", "DOH BIOTERRORISM GRANT PGM", "DEPARTMENT OF PUBLIC HEALTH", "18409602", "847" ]
+, [ 2870, "CD63AE9A-84E4-4A27-B0CC-69F9CAEB9EC4", 2870, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHGO DEPT AGING FED", "FAMILY AND SUPPORT SERVICES", "2940000", "848" ]
+, [ 2873, "D2A0F7DD-BB83-4149-BD9B-3EB6474B215D", 2873, 1354204723, "386464", 1354204723, "386464", "{\n}", "ENVIRONMENTAL STATE", "DEPARTMENT OF PUBLIC HEALTH", "143000", "863" ]
+, [ 2874, "8167A7B0-8440-4FD9-BE88-222EC19DACD3", 2874, 1354204723, "386464", 1354204723, "386464", "{\n}", "ENVIRONMENTAL STATE", "CHICAGO DEPT OF TRANSPORTATION", "1643000", "863" ]
+, [ 2875, "92F80B66-2933-42AC-A9FE-FCCB82F2CBFB", 2875, 1354204723, "386464", 1354204723, "386464", "{\n}", "DCA FEDERAL PROGRAM", "CULTURAL AFFAIRS SPECIAL EVENT", "250000", "865" ]
+, [ 2884, "A317D59D-4E7F-4F3F-B0AB-EC76D6721906", 2884, 1354204723, "386464", 1354204723, "386464", "{\n}", "SHELTER PLUS CARE", "FAMILY AND SUPPORT SERVICES", "36118000", "869" ]
+, [ 2889, "75E11EC9-0CF6-450F-A626-77C4A9A0AB85", 2889, 1354204723, "386464", 1354204723, "386464", "{\n}", "DHS-FOOD PROGRAM", "FAMILY AND SUPPORT SERVICES", "1897000", "878" ]
+, [ 2892, "FC52BDFF-53DF-47F4-97B1-94C622FA67B3", 2892, 1354204723, "386464", 1354204723, "386464", "{\n}", "DHS-HUD", "FAMILY AND SUPPORT SERVICES", "9566000", "880" ]
+, [ 2909, "E84FA141-4FEC-4D8C-93A5-4E24733FBFAE", 2909, 1354204723, "386464", 1354204723, "386464", "{\n}", "DHS-DCCA PROGRAM", "FAMILY AND SUPPORT SERVICES", "14659000", "884" ]
+, [ 2912, "E8AF1AC6-A632-4179-AAF9-2739DCDC5072", 2912, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEAD START", "FINANCE", "304489", "890" ]
+, [ 2933, "FFF38B6E-875F-4463-97FE-1A95D14A152F", 2933, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEAD START", "FAMILY AND SUPPORT SERVICES", "127676511", "890" ]
+, [ 2938, "D28C8358-857F-4373-B474-3D64945AE1C8", 2938, 1354204723, "386464", 1354204723, "386464", "{\n}", "IL LIBRARY DEVELOPMENT", "CHICAGO PUBLIC LIBRARY", "6306000", "898" ]
+, [ 2940, "96BA0B6B-E38A-448C-9A75-9BF1C6C6C484", 2940, 1354204723, "386464", 1354204723, "386464", "{\n}", "COM ED SETTLEMENT FUND II", "OFFICE OF THE MAYOR", "395515", "929" ]
+, [ 2941, "DE697B45-42F9-45CC-B73B-A8F5418CAD5C", 2941, 1354204723, "386464", 1354204723, "386464", "{\n}", "COM ED SETTLEMENT FUND II", "OFFICE OF BUDGET & MANAGEMENT", "9838407", "929" ]
+, [ 2945, "FA17A98D-1288-4E01-AD80-16533E7E7687", 2945, 1354204723, "386464", 1354204723, "386464", "{\n}", "COM ED SETTLEMENT FUND II", "FLEET AND FACILITY MGMT", "884078", "929" ]
+, [ 2952, "EB858706-691C-468F-82B3-3E2FE4B33BC5", 2952, 1354204723, "386464", 1354204723, "386464", "{\n}", "PEOPLES ENERGY SETTLEMENT", "FLEET AND FACILITY MGMT", "2268000", "0B05" ]
+, [ 2956, "DB54236D-43AC-40CE-91A1-DBD4271CE416", 2956, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDC", "DEPARTMENT OF PUBLIC HEALTH", "376000", "0H01" ]
+, [ 2964, "FB69DBF3-9727-4C9E-A808-8772974CC190", 2964, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEALTH SERVICES PROGRAM INCOME", "DOIT", "1787298", "0H05" ]
+, [ 2973, "F63C26A2-CBFB-419D-A6B3-6EEFE030DB8B", 2973, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEALTH SERVICES PROGRAM INCOME", "DEPARTMENT OF PUBLIC HEALTH", "7370702", "0H05" ]
+, [ 2977, "845FD15B-ECEB-40BC-96CF-D631BA53FFD2", 2977, 1354204723, "386464", 1354204723, "386464", "{\n}", "DIABETES TRANSLATION RESEARCH", "DEPARTMENT OF PUBLIC HEALTH", "176000", "0H06" ]
+, [ 2978, "07840D0B-DC7D-40B3-814E-A3A3EC1C2AAD", 2978, 1354204723, "386464", 1354204723, "386464", "{\n}", "COMMUNITY TRANSFORMATION", "DEPARTMENT OF PUBLIC HEALTH", "300000", "0H07" ]
+, [ 2992, "FF010AF0-DD20-4F41-925C-9452113E069A", 2992, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHICAGO-FAMILY CASE MANAGEMENT", "DEPARTMENT OF PUBLIC HEALTH", "2500000", "0H90" ]
+, [ 3005, "F3F2D732-C95B-4228-B5CA-0F7F1AE5CDDE", 3005, 1354204723, "386464", 1354204723, "386464", "{\n}", "HEALTHY FAMILIES ILLINOIS", "DEPARTMENT OF PUBLIC HEALTH", "247000", "0H93" ]
+, [ 3009, "FA7E0312-D2B9-42E1-90AF-6CEAFC311F36", 3009, 1354204723, "386464", 1354204723, "386464", "{\n}", "PREVENTION-DOMESTIC VIOLENCE", "FAMILY AND SUPPORT SERVICES", "181000", "0H96" ]
+, [ 3013, "BE72F3A7-008D-42E6-A854-EBBFB1355150", 3013, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHAPS HUD GRANTS", "BUS AFFAIRS AND CONSUMER PROT", "532000", "0K03" ]
+, [ 3014, "8CE840CE-E99D-4348-83C0-34C350A413BE", 3014, 1354204723, "386464", 1354204723, "386464", "{\n}", "STATE-RENTAL HOUSING SU", "HOUSING AND ECONOMIC DEVELOPMT", "10500000", "0K06" ]
+, [ 3021, "E8DCA8C5-E0A5-4A9B-9781-99B706FA9EF2", 3021, 1354204723, "386464", 1354204723, "386464", "{\n}", "HOME INVESTMENT PARTNERSHIP", "HOUSING AND ECONOMIC DEVELOPMT", "79383000", "0K11" ]
+, [ 3022, "05473D96-965E-490E-A141-3B526DE3ECF8", 3022, 1354204723, "386464", 1354204723, "386464", "{\n}", "STATE-ILL DEPT OF COMMERCE", "HOUSING AND ECONOMIC DEVELOPMT", "100000", "0K17" ]
+, [ 3027, "EB80DC4E-C9B9-4648-8B38-AEEE2DEA60CB", 3027, 1354204723, "386464", 1354204723, "386464", "{\n}", "NEIGHBORHOOD STABILIZATION", "HOUSING AND ECONOMIC DEVELOPMT", "13853000", "0K25" ]
+, [ 3028, "6191E374-B24D-4AFF-893E-E40C1F083385", 3028, 1354204723, "386464", 1354204723, "386464", "{\n}", "IKE PROPERTY BUYOUT", "HOUSING AND ECONOMIC DEVELOPMT", "5500000", "0K28" ]
+, [ 3030, "D8C3B56C-D142-4A1C-9470-2FA45450E3DA", 3030, 1354204723, "386464", 1354204723, "386464", "{\n}", "CMAP ENERGY GRANT", "HOUSING AND ECONOMIC DEVELOPMT", "1630000", "0K30" ]
+, [ 3033, "F0B44D58-4293-476E-924B-E9AA6F984FBE", 3033, 1354204723, "386464", 1354204723, "386464", "{\n}", "FORECLOSURE PREVENTION", "HOUSING AND ECONOMIC DEVELOPMT", "2260000", "0K32" ]
+, [ 3038, "DF950083-B0E4-4CAE-9ABB-C67E2B152E67", 3038, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHOICE NEIGHBORHOODS IMPLEMENTATION", "HOUSING AND ECONOMIC DEVELOPMT", "766000", "0K43" ]
+, [ 3039, "9C99FC5C-F6B7-4893-9935-F4F88D4E40A3", 3039, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHICAGO COMMUNITY SMALL GRANTS", "HOUSING AND ECONOMIC DEVELOPMT", "25000", "0K44" ]
+, [ 3043, "E90E692C-DA0A-42B8-9C01-041F5AFF7608", 3043, 1354204723, "386464", 1354204723, "386464", "{\n}", "MISC. DHED PRIVATE FUNDED GRANTS", "HOUSING AND ECONOMIC DEVELOPMT", "40000", "0K45" ]
+, [ 3045, "E1DC9731-2670-46FB-88F4-5AD69104E5DF", 3045, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC", "OEMC", "550000", "0M02" ]
+, [ 3048, "8CD36215-07D7-4B93-A80D-2D78D74E71BC", 3048, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC GENERAL GRANT", "OEMC", "3200000", "0M06" ]
+, [ 3049, "7219CE7D-4EC3-41DB-AEFC-73671F9E2146", 3049, 1354204723, "386464", 1354204723, "386464", "{\n}", "PRIVATE FUNDED GRANTS", "CHICAGO DEPT OF TRANSPORTATION", "1000000", "0M07" ]
+, [ 3057, "FB9917E0-6ED3-4280-9AA7-7701728733E4", 3057, 1354204723, "386464", 1354204723, "386464", "{\n}", "STATE FUNDED IDOT PROJECTS", "OEMC", "37668996", "0M08" ]
+, [ 3058, "02DCFA2C-B5E6-438D-929C-CA5D9577B44D", 3058, 1354204723, "386464", 1354204723, "386464", "{\n}", "FEDERAL USEPA", "OEMC", "500000", "0M11" ]
+, [ 3059, "8A3FD42C-108C-4B97-9A13-04E61E2DFE5C", 3059, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC - PUBLIC SAFETY", "OEMC", "575000", "0M13" ]
+, [ 3068, "F5A278C7-0059-4010-8124-DAD15DD28F1D", 3068, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC FEDERAL GRANTS", "OEMC", "67442659", "0M14" ]
+, [ 3069, "CE540793-A315-4415-BCAF-D5013AC832CA", 3069, 1354204723, "386464", 1354204723, "386464", "{\n}", "IGIG", "CHICAGO DEPT OF TRANSPORTATION", "800000", "0M27" ]
+, [ 3070, "F72D5C92-F557-4E0A-8EE7-0309F55B3DAE", 3070, 1354204723, "386464", 1354204723, "386464", "{\n}", "FEDERAL SECTION 117", "CHICAGO DEPT OF TRANSPORTATION", "397000", "0M28" ]
+, [ 3071, "0BA6005E-F96A-4936-8219-AAB440C18534", 3071, 1354204723, "386464", 1354204723, "386464", "{\n}", "TCSP FEDERAL THROUGH STATE", "CHICAGO DEPT OF TRANSPORTATION", "1040000", "0M29" ]
+, [ 3073, "F5175FCC-4968-4E62-BB02-8D989DF0ABD1", 3073, 1354204723, "386464", 1354204723, "386464", "{\n}", "ILLINOIS ENVIRONMENTAL PROTECTION AGENCY", "CHICAGO DEPT OF TRANSPORTATION", "5400000", "0M35" ]
+, [ 3075, "BA38868C-7F9D-4B68-88BB-5555ABB7F4F5", 3075, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC GRANTS 2013", "OFFICE OF BUDGET & MANAGEMENT", "223345", "0M39" ]
+, [ 3078, "CDB61F80-4B79-452F-9618-D5A54BAE57F5", 3078, 1354204723, "386464", 1354204723, "386464", "{\n}", "OEMC GRANTS 2013", "OEMC", "36866000", "0M39" ]
+, [ 3081, "8C462E00-0D3D-4FAC-B8AF-6DDBA61233FE", 3081, 1354204723, "386464", 1354204723, "386464", "{\n}", "CHA FAMILY SUPPORTIVE SERVICES", "FAMILY AND SUPPORT SERVICES", "1500000", "0N03" ]
+, [ 3089, "F35023C1-E7BA-4EBD-A111-991823E09C71", 3089, 1354204723, "386464", 1354204723, "386464", "{\n}", "HOMELAND SECURITY", "DEPARTMENT OF POLICE", "5824000", "0P04" ]
+, [ 3090, "006C262B-75E3-425C-A5F6-AE30030E51F2", 3090, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT. OF ENVIRONMENT - FEDERAL", "CHICAGO DEPT OF TRANSPORTATION", "10000", "0P07" ]
+, [ 3093, "AB700B15-A5C5-45BD-8E0C-B0F4ACDDC2EE", 3093, 1354204723, "386464", 1354204723, "386464", "{\n}", "U.S. DEPT OF ENERGY", "DEPARTMENT OF PUBLIC HEALTH", "40000", "0P12" ]
+, [ 3097, "D6AA2555-25D1-4744-92FF-D8E8BD65ECC2", 3097, 1354204723, "386464", 1354204723, "386464", "{\n}", "U.S. DEPT OF ENERGY", "CHICAGO DEPT OF TRANSPORTATION", "4272000", "0P12" ]
+, [ 3100, "B4AAAF44-59C0-4588-8C85-BC332BE6A0B6", 3100, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT OF GENERAL SERVICES PROGRAMS", "FLEET AND FACILITY MGMT", "4400000", "0P14" ]
+, [ 3101, "988BC428-73A4-4F21-86F2-3F20AF41A0F7", 3101, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT OF GENERAL SERVICES PROGRAMS", "CHICAGO DEPT OF TRANSPORTATION", "1118000", "0P14" ]
+, [ 3102, "6F2FA611-ED2B-4D7F-A478-6F1E521E0937", 3102, 1354204723, "386464", 1354204723, "386464", "{\n}", "USEPA - FEDERAL", "FLEET AND FACILITY MGMT", "400000", "0P16" ]
+, [ 3104, "64DA21B0-AC75-4CFF-8C96-68CFB78C73C5", 3104, 1354204723, "386464", 1354204723, "386464", "{\n}", "USEPA - FEDERAL", "DEPARTMENT OF PUBLIC HEALTH", "412000", "0P16" ]
+, [ 3105, "615CB03F-DDEF-4592-9734-71CD4E744D2B", 3105, 1354204723, "386464", 1354204723, "386464", "{\n}", "USEPA - FEDERAL", "CHICAGO DEPT OF TRANSPORTATION", "6000", "0P16" ]
+, [ 3110, "FCABE36E-910E-40B7-8FC0-C1999C887664", 3110, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPD - TRANSPORTATION", "DEPARTMENT OF POLICE", "903000", "0P17" ]
+, [ 3111, "7EDCC868-7595-4FA7-94A3-CA41C8E8C9FE", 3111, 1354204723, "386464", 1354204723, "386464", "{\n}", "FED ADMIN ON AGING", "FAMILY AND SUPPORT SERVICES", "22000", "0P18" ]
+, [ 3152, "FADE1B48-03C7-453E-9264-C2D9E7175183", 3152, 1354204723, "386464", 1354204723, "386464", "{\n}", "US DEPT OF JUSTICE", "DEPARTMENT OF POLICE", "9952000", "0P19" ]
+, [ 3156, "CB11FF30-5E4E-492D-9810-854A5814D3C8", 3156, 1354204723, "386464", 1354204723, "386464", "{\n}", "IL DEPT OF COMMERCE", "BUS AFFAIRS AND CONSUMER PROT", "425000", "0P20" ]
+, [ 3158, "88A56813-910C-46AC-B52D-AA9291B84310", 3158, 1354204723, "386464", 1354204723, "386464", "{\n}", "BYRNE JUSTICE ASSISTANCE", "DEPARTMENT OF POLICE", "434000", "0P28" ]
+, [ 3160, "175EB1FD-BCB7-4B3A-B4BC-8D965A24503A", 3160, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT. OF ENVIRONMENT STATE GRANTS", "FLEET AND FACILITY MGMT", "3000000", "0P29" ]
+, [ 3164, "F9E398C2-3EE1-4E53-BD2C-62520F7012E6", 3164, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT. OF ENVIRONMENT STATE GRANTS", "CHICAGO DEPT OF TRANSPORTATION", "1343000", "0P29" ]
+, [ 3174, "F8F0B9E2-0C94-424D-8B99-185F5C1E8782", 3174, 1354204723, "386464", 1354204723, "386464", "{\n}", "DFSS - FEDERAL - FGP/SCP", "FAMILY AND SUPPORT SERVICES", "1080000", "0P36" ]
+, [ 3179, "EB2FEE93-B9D3-449B-BC9B-78A7B996CE52", 3179, 1354204723, "386464", 1354204723, "386464", "{\n}", "TITLE VPG", "FAMILY AND SUPPORT SERVICES", "1024000", "0P37" ]
+, [ 3190, "FCE58148-AC2C-474E-AE13-1C411065DDCB", 3190, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPARTMENT ON AGING GRANTS", "FAMILY AND SUPPORT SERVICES", "2592000", "0P38" ]
+, [ 3222, "FE1C50C5-DABC-4E9D-989D-B2F4401EE784", 3222, 1354204723, "386464", 1354204723, "386464", "{\n}", "AREA AGING PROGRAMS", "FAMILY AND SUPPORT SERVICES", "19868000", "0P40" ]
+, [ 3225, "AFBFE039-28D3-4922-A3BE-56B3096677E7", 3225, 1354204723, "386464", 1354204723, "386464", "{\n}", "AGING PRIVATE GRANTS", "FAMILY AND SUPPORT SERVICES", "920000", "0P41" ]
+, [ 3227, "BAE3B3CF-858D-415C-BBDA-D19D95D3BB5F", 3227, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPD JAG", "DEPARTMENT OF POLICE", "1600000", "0P42" ]
+, [ 3254, "FDCC64DA-E838-45E0-9B65-7D04ADE82339", 3254, 1354204723, "386464", 1354204723, "386464", "{\n}", "US DEPT OF HOMELAND SECURITY", "DEPARTMENT OF POLICE", "23055000", "0P46" ]
+, [ 3260, "EF8E26F0-B495-438A-AF91-5E4714619507", 3260, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPL - FEDERAL GRANTS", "CHICAGO PUBLIC LIBRARY", "576000", "0P53" ]
+, [ 3266, "E41FDF5E-ECE5-4AB3-AF5E-3FD54EA4F95B", 3266, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPD - JAG", "DEPARTMENT OF POLICE", "2291000", "0P55" ]
+, [ 3267, "7A46509B-4449-42FA-8221-AF4380858F31", 3267, 1354204723, "386464", 1354204723, "386464", "{\n}", "DEPT. OF VETERANS AFFAIRS (VHA)", "FAMILY AND SUPPORT SERVICES", "2276000", "0P61" ]
+, [ 3272, "DF105D95-8BC0-45D2-BD53-EFE340AF1EB2", 3272, 1354204723, "386464", 1354204723, "386464", "{\n}", "DCASE - ARTS", "CULTURAL AFFAIRS SPECIAL EVENT", "255000", "0P65" ]
+, [ 3280, "AD0982C9-22CE-4802-A2BF-1C9E92D6BBE5", 3280, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPD - U.S. DOJ", "DEPARTMENT OF POLICE", "12265000", "0P68" ]
+, [ 3283, "DD8E7E5B-A6A8-4C34-B006-3E9B3C91742B", 3283, 1354204723, "386464", 1354204723, "386464", "{\n}", "CPD - U.S. DOJ", "DEPARTMENT OF POLICE", "3125000", "0P69" ]
+, [ 3296, "F86D25F4-707F-4889-BF02-811FC8F96E58", 3296, 1354204723, "386464", 1354204723, "386464", "{\n}", "INNOVATIVE DELIVERY GRANT", "OFFICE OF THE MAYOR", "2428000", "0P71" ]
+, [ 3305, "FEEBEA55-95C3-4590-9E29-C927CBE0B300", 3305, 1354204723, "386464", 1354204723, "386464", "{\n}", "DCASE - PRIVATE GRANTS", "CULTURAL AFFAIRS SPECIAL EVENT", "590000", "0P72" ]
+, [ 3307, "CAB6F4BF-51BD-42B5-922A-8A29016EAC76", 3307, 1354204723, "386464", 1354204723, "386464", "{\n}", "DCASE - STATE GRANTS", "CULTURAL AFFAIRS SPECIAL EVENT", "300000", "0P73" ]
+, [ 3308, "D9D2EC8C-12CB-4755-84EC-BD8EF6B340C5", 3308, 1354204723, "386464", 1354204723, "386464", "{\n}", "FLEET AND FACILITY MANGEMENT", "FLEET AND FACILITY MGMT", "649000", "0P83" ]
+, [ 3309, "8BA5F735-616F-4D5B-9CFE-572B78B4D96B", 3309, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - FEDERAL - BROADBAND", "DOIT", "85000", "0S04" ]
+, [ 3313, "C6EF1A45-93F5-441A-82FB-46EC5A78398F", 3313, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - CPD - TRANSIT SECURITY GRANT", "DEPARTMENT OF POLICE", "1400000", "0S15" ]
+, [ 3317, "F2A6B69D-C8FE-4935-A805-70D5941C2307", 3317, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - CPD - JAG", "DEPARTMENT OF POLICE", "3166000", "0S16" ]
+, [ 3321, "D1296D63-1C8A-48BA-A24B-E04930A99ABE", 3321, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - COPS HIRING RECOVERY PROJECT", "DEPARTMENT OF POLICE", "3000000", "0S21" ]
+, [ 3326, "A89FF3CD-6C3B-442A-8C01-AEDF92DB234D", 3326, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - CPD - BREAK CODE OF SILENCE", "DEPARTMENT OF POLICE", "225000", "0S26" ]
+, [ 3328, "7FC0DF20-C68C-44F3-9F29-E8ED8488145F", 3328, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - URBAN AND COMMUNITY FORESTRY", "CHICAGO DEPT OF TRANSPORTATION", "421000", "0S51" ]
+, [ 3329, "F53BC2D3-27CB-4295-B3AA-9090BA003BE9", 3329, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - CHICAGO ALT. FUELS", "CHICAGO DEPT OF TRANSPORTATION", "5000000", "0S55" ]
+, [ 3332, "DE57485F-8D70-46AB-8C32-C69FC24802B3", 3332, 1354204723, "386464", 1354204723, "386464", "{\n}", "ARRA - PCC SMART CHICAGO PUBLIC COMPUTER", "DOIT", "345000", "0S60" ]
+, [ 3337, "E9724473-43A2-4227-8591-99EFD0CB2D55", 3337, 1354204723, "386464", 1354204723, "386464", "{\n}", "NEIGHBORHOOD STABILIZATION GRANT", "HOUSING AND ECONOMIC DEVELOPMT", "10010000", "0S73" ]
+, [ 3339, "AEF586EA-837D-4483-835F-9B6EB8686B0F", 3339, 1354204723, "386464", 1354204723, "386464", "{\n}", "NEIGHBORHOOD STABILIZATION PROGRAM", "HOUSING AND ECONOMIC DEVELOPMT", "8000000", "0S85" ]
+, [ 3356, "ED8AD20C-33C9-4908-9997-7AA25CDAA05A", 3356, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "OFFICE OF BUDGET & MANAGEMENT", "3320537", "0K39" ]
+, [ 3364, "F7953D59-D2CE-45CD-9F47-F83F926C3644", 3364, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "FINANCE", "1482256", "0K39" ]
+, [ 3379, "ED4EF175-EEA8-4CAE-879D-DBD0F8E4D53E", 3379, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "DEPARTMENT OF LAW", "1816789", "0K39" ]
+, [ 3381, "7554B8C1-6DBC-466C-8670-C571DAD7BE15", 3381, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "FLEET AND FACILITY MGMT", "137285", "0K39" ]
+, [ 3406, "F4391AB9-C54A-46E4-97A3-A0E2B3ADF76E", 3406, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "DEPARTMENT OF PUBLIC HEALTH", "9136284", "0K39" ]
+, [ 3430, "EC3F5DC3-3899-4FEB-9C6A-73D7C968C1FE", 3430, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "COMMISSION ON HUMAN RELATIONS", "1229562", "0K39" ]
+, [ 3446, "E3FC802E-43C0-4672-97C3-5251988CE23E", 3446, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "MAYORS OFFICE-DISABILITIES", "2687050", "0K39" ]
+, [ 3484, "FA3A5DC5-CE32-431F-B262-320273CA0963", 3484, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "FAMILY AND SUPPORT SERVICES", "24864960", "0K39" ]
+, [ 3582, "F7148990-3F9B-478D-B503-1112E0FB0C58", 3582, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "HOUSING AND ECONOMIC DEVELOPMT", "30347917", "0K39" ]
+, [ 3591, "D6160C71-B456-4267-BE04-CBDEB20AB54A", 3591, 1354204723, "386464", 1354204723, "386464", "{\n}", "CDBG", "DEPT OF BUILDINGS", "6568360", "0K39" ]
+ ]
+}
