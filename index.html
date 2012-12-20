@@ -10,6 +10,10 @@
   height: 600px;
 }
 
+#hover_description{
+  height: 26px;
+}
+
 .node rect {
   fill-opacity: .9;
   shape-rendering: crispEdges;
@@ -41,8 +45,11 @@
 <header>
 </header>
 
-<h3>Oakland City Budget<br>(Revenues and Expenditures as Adopted, FY 2012-2013)</h3>
-<h4 id="warning">Draft - Data requires validation (see notes at bottom)</h4>
+<h3>Oakland City Budget<br>(Revenues and Expenditures as Adopted, FY 2012-2013)<div id="warning">Draft - Data requires validation (see notes at bottom)</div></h3>
+
+<div id="hover_description">
+ 
+</div>
 
 <p id="chart">
 </p>
@@ -117,10 +124,13 @@ function do_with_budget(energy) {
       .attr("class", "link")
       .attr("d", path)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; });
+      .sort(function(a, b) { return b.dy - a.dy; })
+      .on("mouseover", function(d){$("#hover_description").append($("<span>" + d.source.name + " to " + d.target.name + ":  " + format(d.value) + "</span>"));})
+      .on("mouseout", function(){$("#hover_description").find("span:last").remove();});;
 
   link.append("title")
-      .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+      .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); })
+
 
   var node = svg.append("g").selectAll(".node")
       .data(energy.nodes)
@@ -157,7 +167,19 @@ $.get("./js/oakland.json", function(data){
   do_with_budget(data);
 });
 
-//$(.link).hover( function() { alert("hello"); } );
+
+//$("#chart svg g g g.node rect").hover(
+/*
+$('svg g').hover(
+  function () {
+    $("h3").append($("<span>  " + "sd" + "</span>"));
+  }, 
+  function () {
+    $("h3").find("span:last").remove();
+  }
+);
+*/
+
 
 /*
 d3.json("energy.json", function (budget_data) {
