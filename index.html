@@ -11,7 +11,6 @@
 }
 
 .node rect {
-  cursor: move;
   fill-opacity: .9;
   shape-rendering: crispEdges;
 }
@@ -98,27 +97,11 @@ var svg = d3.select("#chart").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var sankey = d3.sankey()
-    .nodeWidth(15)
-    .nodePadding(10)
+    .nodeWidth(30)
+    .nodePadding(5)
     .size([width, height]);
 
 var path = sankey.link();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Changed to budget
 function do_with_budget(energy) {
@@ -144,10 +127,7 @@ function do_with_budget(energy) {
     .enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-    .call(d3.behavior.drag()
-      .origin(function(d) { return d; })
-      .on("dragstart", function() { this.parentNode.appendChild(this); })
-      .on("drag", dragmove));
+
 
   node.append("rect")
       .attr("height", function(d) { return d.dy; })
@@ -167,12 +147,6 @@ function do_with_budget(energy) {
     .filter(function(d) { return d.x < width / 2; })
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
-
-  function dragmove(d) {
-    d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
-    sankey.relayout();
-    link.attr("d", path);
-  }
 };
 
 //do_with_energy(energy);
@@ -182,6 +156,8 @@ function do_with_budget(energy) {
 $.get("./js/oakland.json", function(data){
   do_with_budget(data);
 });
+
+//$(.link).hover( function() { alert("hello"); } );
 
 /*
 d3.json("energy.json", function (budget_data) {

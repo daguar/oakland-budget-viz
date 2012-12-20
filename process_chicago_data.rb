@@ -8,7 +8,7 @@ temp_table = Array.new
 
 # Extract fund name, department name, and amount from JSON file
 parsed_contents['data'].each do |d|
-  temp_table << [d[8], d[9], d[10]] if d[10].to_i > 40000000 # if clause to clean small entries
+  temp_table << [d[8], d[9], d[10]] if d[10].to_i > 50000000 # if clause to clean small entries
 end
 
 # Create a list of nodes from unique fund and department names
