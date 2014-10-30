@@ -1,0 +1,28 @@
+{"nodes":[
+{"name":"Kaplan (-1)"},
+{"name":"Perata (-1)"},
+{"name":"Quan (-1)"},
+{"name":"Perata (0)"},
+{"name":"Quan (0)"},
+{"name":"Other candidates (0)"},
+{"name":"Kaplan (-2)"},
+{"name":"Perata (-2)"},
+{"name":"Quan (-2)"},
+{"name":"Tuman (-2)"},
+{"name":"Other candidates (-1)"}
+],
+"links":[
+{"source":0,"target":3,"value":6407},
+{"source":0,"target":4,"value":18864},
+{"source":0,"target":5,"value":7448},
+{"source":1,"target":3,"value":45465},
+{"source":2,"target":4,"value":35033},
+{"source":6,"target":0,"value":27475},
+{"source":7,"target":1,"value":42188},
+{"source":8,"target":2,"value":31655},
+{"source":10,"target":5,"value":5488},
+{"source":9,"target":0,"value":5244},
+{"source":9,"target":1,"value":3277},
+{"source":9,"target":2,"value":3378},
+{"source":9,"target":10,"value":3563}
+]}

@@ -2,44 +2,45 @@
 <!-- saved from url=(0033)http://bost.ocks.org/mike/sankey/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
 <title>Oakland City Budget (Adopted 2012-2013)</title>
+
+
 <style>
+  @import url(./css/style.css?20120521);
 
-@import url(./css/style.css?20120521);
+  #chart {
+    height: 600px;
+  }
 
-#chart {
-  height: 600px;
-}
+  #hover_description{
+    height: 26px;
+  }
 
-#hover_description{
-  height: 26px;
-}
+  .node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
 
-.node rect {
-  fill-opacity: .9;
-  shape-rendering: crispEdges;
-}
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 12px;
+  }
 
-.node text {
-  pointer-events: none;
-  text-shadow: 0 1px 0 #fff;
-  font-size: 12px;
-}
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
 
-.link {
-  fill: none;
-  stroke: #000;
-  stroke-opacity: .2;
-}
+  .link:hover {
+    stroke-opacity: .5;
+  }
 
-.link:hover {
-  stroke-opacity: .5;
-}
+  #warning{
+    color: red;
+  }
+  </style>
 
-#warning{
-  color: red;
-}
-
-</style>
 </head><body>
 
 <header>
@@ -94,7 +95,7 @@ var margin = {top: 1, right: 1, bottom: 6, left: 1},
     height = 600 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),
-    format = function(d) { return "$" + formatNumber(d); },
+    format = function(d) { return formatNumber(d); },
     color = d3.scale.category20();
 
 var svg = d3.select("#chart").append("svg")
@@ -153,7 +154,7 @@ function do_with_budget(energy) {
       .attr("dy", ".35em")
       .attr("text-anchor", "end")
       .attr("transform", null)
-      .text(function(d) { return d.name; })
+      .text(function(d) { return d.name + ": " + format(d.value); })
     .filter(function(d) { return d.x < width / 2; })
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
@@ -163,7 +164,7 @@ function do_with_budget(energy) {
 //do_with_budget(budget);
 
 
-$.get("./js/oakland.json", function(data){
+$.get("./js/mayor2010-3stage.json", function(data){
   do_with_budget(data);
 });
 
