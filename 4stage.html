@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://bost.ocks.org/mike/sankey/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<title>Ranked-Choice Voting: Oakland Mayoral Election, 2014 (Preliminary Results as of 11/15/2014)</title>
+
+
+<style>
+  @import url(./css/style.css?20120521);
+
+  #chart {
+    height: 600px;
+  }
+
+  #hover_description{
+    height: 26px;
+  }
+
+  .node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 12px;
+  }
+
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
+
+  .link:hover {
+    stroke-opacity: .5;
+  }
+
+  #warning{
+    color: red;
+  }
+  </style>
+
+</head><body>
+
+<header>
+</header>
+
+<h3>Ranked-Choice Voting: Oakland Mayoral Election, 2014 (Preliminary Results as of 11/15/2014)</h3>
+
+<div id="hover_description">
+ 
+</div>
+
+<p id="chart">
+</p>
+
+<h4>Source: Alameda County Registrar of Voters, <a href="http://www.acgov.org/rov/rcv/results/226/OaklandMayor/pass_report.pdf">http://www.acgov.org/rov/rcv/results/226/OaklandMayor/pass_report.pdf</a></h4>
+
+<h4>Copyright 2014, Dave Guarino (<a href="https://twitter.com/allafarce">@allafarce</a>)</h4>
+</p>
+
+
+
+
+<script src="./js/d3.v2.min.js"></script>
+<script src="./js/sankey.js"></script>
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-56452926-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+
+var margin = {top: 1, right: 1, bottom: 6, left: 1},
+    width = 960 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+var formatNumber = d3.format(",.0f"),
+    format = function(d) { return formatNumber(d); },
+    color = d3.scale.category20();
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var sankey = d3.sankey()
+    .nodeWidth(30)
+    .nodePadding(5)
+    .size([width, height]);
+
+var path = sankey.link();
+
+// Changed to budget
+function do_with_budget(energy) {
+
+  sankey
+      .nodes(energy.nodes)
+      .links(energy.links)
+      .layout(32);
+
+  var link = svg.append("g").selectAll(".link")
+      .data(energy.links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+      .sort(function(a, b) { return b.dy - a.dy; })
+      .on("mouseover", function(d){$("#hover_description").append($("<span>" + d.source.name + " to " + d.target.name + ":  " + format(d.value) + "</span>"));})
+      .on("mouseout", function(){$("#hover_description").find("span:last").remove();});;
+
+  link.append("title")
+      .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); })
+
+
+  var node = svg.append("g").selectAll(".node")
+      .data(energy.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+
+
+  node.append("rect")
+      .attr("height", function(d) { return d.dy; })
+      .attr("width", sankey.nodeWidth())
+      .style("fill", function(d) { return d.color = color(d.name.replace(/ .*/, "")); })
+      .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
+    .append("title")
+      .text(function(d) { return d.name + "\n" + format(d.value); });
+
+  node.append("text")
+      .attr("x", -6)
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .attr("transform", null)
+      .text(function(d) { return d.name + ": " + format(d.value); })
+    .filter(function(d) { return d.x < width / 2; })
+      .attr("x", 6 + sankey.nodeWidth())
+      .attr("text-anchor", "start");
+};
+
+//do_with_energy(energy);
+//do_with_budget(budget);
+
+
+$.get("./js/mayor2014-4stage.json", function(data){
+  do_with_budget(data);
+});
+
+
+//$("#chart svg g g g.node rect").hover(
+/*
+$('svg g').hover(
+  function () {
+    $("h3").append($("<span>  " + "sd" + "</span>"));
+  }, 
+  function () {
+    $("h3").find("span:last").remove();
+  }
+);
+*/
+
+
+/*
+d3.json("energy.json", function (budget_data) {
+  console.log(budget_data);
+  do_with_budget(budget_data);
+});
+*/
+
+</script></body></html>
