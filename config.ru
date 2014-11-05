@@ -1,7 +1,7 @@
 $stdout.sync = true
 
 use Rack::Static,
-  :urls => ["/css", "/js", "/images", "/spec", "/chicago.html"],
+  :urls => ["/css", "/js", "/images", "/spec", "/4stage.html"],
   :root => "."
 
 run lambda { |env|
@@ -11,7 +11,7 @@ run lambda { |env|
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     },
-    File.open('s.html', File::RDONLY)
+    File.open('4stage.html', File::RDONLY)
   ]
 }
 
